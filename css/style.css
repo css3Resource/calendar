@@ -1,0 +1,100 @@
+/* Your Css for Resource */
+
+html, body{
+	background: #595b60;
+}
+
+/* typography */
+
+table{
+	text-align: center;
+}
+
+thead th{
+	color: #e0e0e0;
+	font-weight: bold;
+	text-shadow: none;
+	letter-spacing: 1px;
+}
+
+tr.week{
+	text-transform: uppercase;
+	font-size: 8px;
+	color: #666;
+}
+
+.day tr td{
+	color: #666;
+	font-weight: bold;
+}
+
+.day tr td.active{
+	color: #e0e0e0;
+	text-shadow: 1px 1px #55838f;
+}
+
+.day tr td.next{
+	color: #b4b3b3;
+}
+
+/* structure */
+
+#content{
+	position: relative;
+	width: 210px;
+	margin: 100px auto;
+}
+
+table{
+	width: 210px;
+	background: #f6f6f6;
+	-moz-box-shadow: 0px 0px 5px #444;
+	-webkit-box-shadow: 0px 0px 5px #444;
+	box-shadow: 0px 0px 5px #444;
+}
+
+thead th{
+	padding: 10px 0;
+	background: #393939;
+	border-top: 1px solid #484848;
+}
+
+tr.week td{
+	padding: 4px 0;
+}
+
+.day tr td{
+	padding: 5px 0;
+	border: 1px solid #bbb;
+	width: 30px;
+	background-color: #ececec;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#dedede));
+	background-image: -webkit-linear-gradient(top, #ececec, #dedede);
+	background-image:    -moz-linear-gradient(top, #ececec, #dedede);
+	background-image:     -ms-linear-gradient(top, #ececec, #dedede);
+	background-image:      -o-linear-gradient(top, #ececec, #dedede);
+	background-image:         linear-gradient(top, #ececec, #dedede);
+}
+
+.day tr td.active{
+	background: #6eafbf;
+	box-shadow:inset 3px 3px 8px #5aa0b3, inset -3px -3px 8px #5aa0b3;
+}
+
+.day tr td.next{
+	background-color: #f4f4f4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ececec));
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #ececec);
+	background-image:    -moz-linear-gradient(top, #f4f4f4, #ececec);
+	background-image:     -ms-linear-gradient(top, #f4f4f4, #ececec);
+	background-image:      -o-linear-gradient(top, #f4f4f4, #ececec);
+	background-image:         linear-gradient(top, #f4f4f4, #ececec);
+}
+
+.day tr td:first-child{
+	border-left: none;
+}
+
+.day tr td:last-child{
+	border-right: none;
+}
